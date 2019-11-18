@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Categories/UIColor+NewColors.swift",
+      "line": 28,
+      "symbol": "UIColor.init(r:g:b:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Categories/UIView+IBInspectable.swift",
+      "line": 69,
+      "symbol": "UIView.rightLineColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Categories/UIView+IBInspectable.swift",
+      "line": 78,
+      "symbol": "UIView.rightLineWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Categories/UIView+IBInspectable.swift",
+      "line": 108,
+      "symbol": "UIView.changeAlpha()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Categories/UIView+IBInspectable.swift",
+      "line": 117,
+      "symbol": "UIView.applyGradient(colours:locations:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Constants.swift",
+      "line": 25,
+      "symbol": "APITYPE.GET",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Constants.swift",
+      "line": 26,
+      "symbol": "APITYPE.POST",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Constants.swift",
+      "line": 27,
+      "symbol": "APITYPE.DELETE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/Constants.swift",
+      "line": 28,
+      "symbol": "APITYPE.PUT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/StoryboardIdentifiers.swift",
+      "line": 15,
+      "symbol": "DETAILS_IDENTIFIER",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/Task/Utilities/StoryboardIdentifiers.swift",
+      "line": 18,
+      "symbol": "DETAILS_STORY_IDENTIFIER",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "Schools",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "Schools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 16,
+      "symbol": "Schools.fetchRequest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 20,
+      "symbol": "Schools.address",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 21,
+      "symbol": "Schools.highGrade",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 22,
+      "symbol": "Schools.isPrivate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 23,
+      "symbol": "Schools.lowGrade",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 24,
+      "symbol": "Schools.phone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 25,
+      "symbol": "Schools.privateHours",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 26,
+      "symbol": "Schools.rankMovement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 27,
+      "symbol": "Schools.schoolid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 28,
+      "symbol": "Schools.schoolLevel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/naresh/Downloads/Task/build/Task.build/Release-iphoneos/Task.build/DerivedSources/CoreDataGenerated/Task/Schools+CoreDataProperties.swift",
+      "line": 29,
+      "symbol": "Schools.schoolName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/naresh/Downloads/Task"
+}

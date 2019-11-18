@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SchoolDetailsViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/SchoolDetailsViewController" class="dashAnchor"></a>
+    <a title="SchoolDetailsViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (81% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SchoolDetailsViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RootViewController.html">RootViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchoolDetailsViewController.html">SchoolDetailsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchoolList.html">SchoolList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SchoolTVCell.html">SchoolTVCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Schools.html">Schools</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServiceManager.html">ServiceManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SharedManager.html">SharedManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task6APP_IDSSvp">APP_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task7APP_KEYSSvp">APP_KEY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task18DETAILS_IDENTIFIERSSvp">DETAILS_IDENTIFIER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task24DETAILS_STORY_IDENTIFIERSSvp">DETAILS_STORY_IDENTIFIER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task15SCHOOLSLIST_URLSSvp">SCHOOLSLIST_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task13SCREEN_HEIGHT12CoreGraphics7CGFloatVvp">SCREEN_HEIGHT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task12SCREEN_WIDTH12CoreGraphics7CGFloatVvp">SCREEN_WIDTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task11appDelegateAA03AppC0Cvp">appDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task7baseURLSSvp">baseURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task20kNoConnectivityLabelSo7UILabelCSgvp">kNoConnectivityLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:4Task13kWrongMessageSSvp">kWrongMessage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/APITYPE.html">APITYPE</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Task28addNoInternetConnectionLabelyyF">addNoInternetConnectionLabel()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Task12hideActivityyyF">hideActivity()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Task12showActivityyyF">showActivity()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Task9showAlertyySSF">showAlert(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Task17CompletionHandlera">CompletionHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SchoolDetailsViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">SchoolDetailsViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                </div>
+              </div>
+            <p>The purpose of the <code>SchoolDetailsViewController</code> is to show the Selcted School information in detail way</p>
+
+<p>There&rsquo;s a matching scene in the <em>Main.storyboard</em> file, and in that scene there is a <code>UIScrollView</code> with <code>UILabels</code> design. Go to Interface Builder for details.</p>
+
+<p>The <code>SchoolDetailsViewController</code> class is a subclass of the <code>UIViewController</code>.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Task27SchoolDetailsViewControllerC9schoolObjAA0B4ListCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/schoolObj" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Task27SchoolDetailsViewControllerC9schoolObjAA0B4ListCSgvp">schoolObj</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>object that holds the selected school object from the previous screen</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">schoolObj</span><span class="p">:</span> <span class="kt"><a href="../Classes/SchoolList.html">SchoolList</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolNameLbl"></a>
+                    <a name="//apple_ref/swift/Property/schoolNameLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolNameLbl">schoolNameLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Name</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">schoolNameLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolLevelLbl"></a>
+                    <a name="//apple_ref/swift/Property/schoolLevelLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolLevelLbl">schoolLevelLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Level</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">schoolLevelLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolTypeLbl"></a>
+                    <a name="//apple_ref/swift/Property/schoolTypeLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolTypeLbl">schoolTypeLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">schoolTypeLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)rankMovementLbl"></a>
+                    <a name="//apple_ref/swift/Property/rankMovementLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)rankMovementLbl">rankMovementLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Rank</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">rankMovementLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)phoneLbl"></a>
+                    <a name="//apple_ref/swift/Property/phoneLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)phoneLbl">phoneLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Phone Number</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">phoneLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)lowGradeLbl"></a>
+                    <a name="//apple_ref/swift/Property/lowGradeLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)lowGradeLbl">lowGradeLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Low Grade</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">lowGradeLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)highGradeLbl"></a>
+                    <a name="//apple_ref/swift/Property/highGradeLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)highGradeLbl">highGradeLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School High Grade</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">highGradeLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolHoursLbl"></a>
+                    <a name="//apple_ref/swift/Property/schoolHoursLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)schoolHoursLbl">schoolHoursLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Hours</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">schoolHoursLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(py)addressLbl"></a>
+                    <a name="//apple_ref/swift/Property/addressLbl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(py)addressLbl">addressLbl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Label to show the School Address</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">addressLbl</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>View load method</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Task27SchoolDetailsViewControllerC5setUIyyF"></a>
+                    <a name="//apple_ref/swift/Method/setUI()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Task27SchoolDetailsViewControllerC5setUIyyF">setUI()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UI binding logics</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setUI</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Task@objc(cs)SchoolDetailsViewController(im)callTapped:"></a>
+                    <a name="//apple_ref/swift/Method/callTapped(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Task@objc(cs)SchoolDetailsViewController(im)callTapped:">callTapped(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method for the calling functionality</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">callTapped</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIControl</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sender</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>sender object of the clicked control</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-11-18)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
