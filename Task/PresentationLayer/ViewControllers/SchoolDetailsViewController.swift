@@ -69,6 +69,8 @@ class SchoolDetailsViewController: UIViewController {
             lbl?.textColor = UIColor.valueTextColor()
         }
         
+        print((schoolObj.schoolName)!)
+        
         /* Assigning data To UI */
         schoolNameLbl.text = (schoolObj.schoolName)!
         

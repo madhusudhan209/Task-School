@@ -111,6 +111,23 @@ class RootViewController: UIViewController {
         SharedManager.shared.showTableOrNoData(self.noDataLbl, tableView: self.schoolListTableView, count: self.schoolListArray.count)
         
     }
+    
+    
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+        
+        if segue.identifier == DETAILS_IDENTIFIER {
+            let detailsVC = segue.destination as? SchoolDetailsViewController
+            detailsVC?.schoolObj = sender as! SchoolList
+        }
+        
+     }
+    
+    
 }
 
 // MARK: - TableView DataSource and Delegate Methods
