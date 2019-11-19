@@ -21,7 +21,7 @@ let SCREEN_HEIGHT =  UIScreen.main.bounds.size.height
 /// - POST: uploading data from server
 /// - DELETE: deleting data from server
 /// - PUT: update the data from server
-enum APITYPE :String{
+enum HttpMethod :String{
     case GET
     case POST
     case DELETE

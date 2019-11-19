@@ -57,7 +57,7 @@ class SchoolList: NSObject {
         
         super.init()
         
-        schoolID = String.checkNullValue((dict["schoolid"] as Any))
+        schoolID = String.checkNullValue((dict["schoolid"] ?? dict["schoolId"] as Any))
         schoolName = String.checkNullValue((dict["schoolName"] as Any))
         schoolLevel = String.checkNullValue((dict["schoolLevel"] as Any))
         phone = String.checkNullValue((dict["phone"] as Any))

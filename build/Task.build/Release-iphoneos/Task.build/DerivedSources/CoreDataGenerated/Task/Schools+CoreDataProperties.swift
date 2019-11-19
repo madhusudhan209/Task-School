@@ -2,7 +2,7 @@
 //  Schools+CoreDataProperties.swift
 //  
 //
-//  Created by Naresh Pendam on 18/11/19.
+//  Created by Knowledge Matrix on 19/11/19.
 //
 //  This file was automatically generated and should not be edited.
 //
@@ -24,7 +24,7 @@ extension Schools {
     @NSManaged public var phone: String?
     @NSManaged public var privateHours: String?
     @NSManaged public var rankMovement: String?
-    @NSManaged public var schoolid: String?
+    @NSManaged public var schoolId: String?
     @NSManaged public var schoolLevel: String?
     @NSManaged public var schoolName: String?
 

@@ -30,5 +30,60 @@ class TaskTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    
+    /// checking for saving empty school information in Database
+    func testInsetringEmptySchoolList() {
+        let schoolList1 = SharedManager.shared.getSchoolListFromDatabase()
+        let school = SchoolList(dict: [:])
+        print("------>",schoolList1.count)
+        SharedManager.shared.insertSchoolinDataBase(school)
+        let schoolList2 = SharedManager.shared.getSchoolListFromDatabase()
+        print("------>",schoolList2.count)
+        XCTAssertEqual(schoolList1.count + 1, schoolList2.count)
+    }
+    
+    func testInsetringOneSchoolList() {
+        let schoolList1 = SharedManager.shared.getSchoolListFromDatabase()
+        let _ = ""
+        let school = SchoolList(dict: [:])
+        school.address = nil
+        school.highGrade = nil
+        school.schoolID = nil
+        school.schoolName = nil
+        
+        print("------>",schoolList1.count)
+        SharedManager.shared.insertSchoolinDataBase(school)
+        let schoolList2 = SharedManager.shared.getSchoolListFromDatabase()
+        print("------>",schoolList2.count)
+        XCTAssertEqual(schoolList1.count + 1, schoolList2.count)
+        
+    }
+    
+    func testInsetringActualData() {
+        let schoolList1 = SharedManager.shared.getSchoolListFromDatabase()
+        let school = SchoolList(dict: [:])
+        school.address = "Hyderabad"
+        school.highGrade = "A+"
+        school.schoolID = "1234"
+        school.schoolName = "Primary School"
+        
+        print("------>",schoolList1.count)
+        SharedManager.shared.insertSchoolinDataBase(school)
+        let schoolList2 = SharedManager.shared.getSchoolListFromDatabase()
+        print("------>",schoolList2.count)
+        XCTAssertEqual(schoolList1.count + 1, schoolList2.count)
+        
+    }
+    
+    func testCheckNullValueWithInt() {
+        let testString =  String.checkNSNumberNull(123)
+        XCTAssertEqual("123", testString)
+    }
+    
+    func testCheckNullValueWithAny() {
+        let testString = String.checkNSNumberNull(NSNull())
+        XCTAssertEqual("", testString)
+    }
 
 }

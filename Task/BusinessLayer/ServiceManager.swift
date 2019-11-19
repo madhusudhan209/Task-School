@@ -61,7 +61,7 @@ class ServiceManager: NSObject {
             
             var urlRequest = URLRequest(url: url)
             // Set the API TYPE for Request
-            urlRequest.httpMethod = APITYPE.GET.rawValue
+            urlRequest.httpMethod = HttpMethod.GET.rawValue
             urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
             urlRequest.addValue("application/json", forHTTPHeaderField: "Accept")
             

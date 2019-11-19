@@ -8,7 +8,7 @@
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="privateHours" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="rankMovement" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="schoolid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schoolId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="schoolLevel" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="schoolName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>

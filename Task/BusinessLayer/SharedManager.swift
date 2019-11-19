@@ -114,7 +114,7 @@ class SharedManager: NSObject {
         let entity = NSEntityDescription.entity(forEntityName: "Schools", in: managedObjectContext)
         let newUser = NSManagedObject(entity: entity!, insertInto: managedObjectContext)
         
-        newUser.setValue(schoolObj.schoolID, forKey: "schoolid")
+        newUser.setValue(schoolObj.schoolID, forKey: "schoolId")
         newUser.setValue(schoolObj.schoolName, forKey: "schoolName")
         newUser.setValue(schoolObj.schoolLevel, forKey: "schoolLevel")
         newUser.setValue(schoolObj.phone, forKey: "phone")
@@ -149,16 +149,18 @@ class SharedManager: NSObject {
             let result = try managedObjectContext.fetch(request)
             for data in result as! [NSManagedObject] {
 
-                let dict = ["schoolid" : data.value(forKey: "schoolid") as! String,
-                            "schoolName" : data.value(forKey: "schoolName") as! String,
-                            "schoolLevel" : data.value(forKey: "schoolLevel") as! String,
-                            "phone" : data.value(forKey: "phone") as! String,
-                            "rankMovement" : data.value(forKey: "rankMovement") as! String,
-                            "lowGrade" : data.value(forKey: "lowGrade") as! String,
-                            "highGrade" : data.value(forKey: "highGrade") as! String,
-                            "privateHours" : data.value(forKey: "privateHours") as! String,
-                            "address" : data.value(forKey: "address") as! String,
-                            "isPrivate" : data.value(forKey: "isPrivate") as! Bool] as [String : Any]
+                print( String.checkNullValue(data.value(forKey: "schoolId") as Any))
+                
+                let dict = ["schoolid" : String.checkNullValue(data.value(forKey: "schoolId") as Any),
+                            "schoolName" : data.value(forKey: "schoolName") as? String ?? "",
+                            "schoolLevel" : data.value(forKey: "schoolLevel") as? String ?? "",
+                            "phone" : data.value(forKey: "phone") as? String ?? "",
+                            "rankMovement" : data.value(forKey: "rankMovement") as? String ?? "",
+                            "lowGrade" : data.value(forKey: "lowGrade") as? String ?? "",
+                            "highGrade" : data.value(forKey: "highGrade") as? String ?? "",
+                            "privateHours" : data.value(forKey: "privateHours") as? String ?? "",
+                            "address" : data.value(forKey: "address") as? String ?? "",
+                            "isPrivate" : data.value(forKey: "isPrivate") as? Bool as Any] as [String : Any]
                 
                 print(dict)
                 

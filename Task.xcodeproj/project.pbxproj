@@ -165,7 +165,7 @@
 			children = (
 				C8FFED4C237AA24800DE4A34 /* AppDelegate.swift */,
 				C8FFED7D237AA2A000DE4A34 /* BusinessLayer */,
-				C8FFED86237AA2A000DE4A34 /* DataAccessLayer */,
+				C8FFED86237AA2A000DE4A34 /* Model */,
 				C8FFED88237AA2A100DE4A34 /* PresentationLayer */,
 				C8FFEDC8237AA2A100DE4A34 /* Utilities */,
 				C8FFED50237AA24800DE4A34 /* Main.storyboard */,
@@ -204,12 +204,12 @@
 			path = BusinessLayer;
 			sourceTree = "<group>";
 		};
-		C8FFED86237AA2A000DE4A34 /* DataAccessLayer */ = {
+		C8FFED86237AA2A000DE4A34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C8FFED87237AA2A000DE4A34 /* SchoolList.swift */,
 			);
-			path = DataAccessLayer;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C8FFED88237AA2A100DE4A34 /* PresentationLayer */ = {
@@ -217,7 +217,7 @@
 			children = (
 				C8FFED89237AA2A100DE4A34 /* CustomCells */,
 				C8FFED98237AA2A100DE4A34 /* CustomViews */,
-				C8FFED9D237AA2A100DE4A34 /* ViewControllers */,
+				C8FFED9D237AA2A100DE4A34 /* Controllers */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -245,13 +245,13 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
-		C8FFED9D237AA2A100DE4A34 /* ViewControllers */ = {
+		C8FFED9D237AA2A100DE4A34 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C8CD1E90237BDE17002925D0 /* RootViewController.swift */,
 				C8CD1E94237D51CA002925D0 /* SchoolDetailsViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C8FFEDC8237AA2A100DE4A34 /* Utilities */ = {

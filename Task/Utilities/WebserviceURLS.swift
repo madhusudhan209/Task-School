@@ -8,10 +8,10 @@
 
 import Foundation
 
-/// APP_ID object that registered with services
+/// APP_ID object that registered with School API services
 let APP_ID = "28026904"
 
-/// APP_KEY object that registered with services
+/// APP_KEY object that registered with School API services
 let APP_KEY = "22bdb27f053e4d5a71643fce833b2283"
 
 /// basic api link
